@@ -1,0 +1,46 @@
+name: tubesnew
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  image_picker: ^0.8.4+4
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true   # Enables Material Icons in the app
+
+  assets:
+    - assets/kemeja_cewe.jpg
+    - assets/vest_outer.jpg
+    - assets/hoodie1.jpg
+    - assets/sweater1.jpeg
+    - assets/kaos1.jpg
+    - assets/bajuanak2cewe.jpeg
+    - assets/bajuanakcewe.jpg
+    - assets/bajucowo1.jpeg
+    - assets/bajucowo2.jpeg
+    - assets/shirt1.jpeg
+    - assets/baju1.jpg
+    - assets/baju2.jpg
+    - assets/dana_icon.png       # Gambar untuk DANA
+    - assets/mandiri_icon.png    # Gambar untuk Mandiri
+    - assets/bni_icon.png        # Gambar untuk BNI
+    - assets/permata_icon.png    # Gambar untuk Permata
+    - assets/credit_card_icon.png # Gambar untuk Kartu Kredit
+    - assets/gopay_icon.png      # Gambar untuk GoPay
+    - assets/indomaret_icon.png   # Gambar untuk Indomaret
+    - assets/alfamart_icon.png    # Gambar untuk Alfamart
